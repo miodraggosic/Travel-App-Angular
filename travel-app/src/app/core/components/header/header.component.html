@@ -1,0 +1,12 @@
+<header>
+  <mat-toolbar color="secondary">
+    <mat-nav-list>
+      <mat-list>
+        <app-nav-link [text]="'balkan mountain travel'"></app-nav-link>
+      </mat-list>
+      <mat-list>
+        <app-nav-link mat-list-item *ngFor="let link of navLinks" [text]="link"></app-nav-link>
+      </mat-list>
+    </mat-nav-list>
+  </mat-toolbar>
+</header>
