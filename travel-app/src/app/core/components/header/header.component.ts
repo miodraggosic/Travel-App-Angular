@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavLinks } from 'src/app/models/nav-links.enum';
+import { NavLinks } from 'src/app/models/enums/nav-links.enum';
 
 @Component({
   selector: 'app-header',
