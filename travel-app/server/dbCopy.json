@@ -4,10 +4,10 @@
       "title": "Durmitor National Park",
       "imageUrl": "https://naturetraveloffice.com/wp-content/uploads/2018/11/z-71.jpg",
       "price": "350",
-      "description": "The natural beauty of Montenegro, the beauty of its mountains, rivers, canyons, lakes, forests, cities, the Adriatic coast - make it special and exceptional. It is so small, so they say that you can visit all country in a week, but if its hills were “flattened out” - it would be the largest country in the world! And one more thing - this is the only country in the world that, due to its natural beauty, could be declared as a national nature park under the protection of UNESCO. So far it has been done with 50% of its territory!",
+      "description": "The natural beauty of Montenegro, the beauty of its mountains, rivers, canyons, lakes, forests, cities, the Adriatic coast - make it special and exceptional. It is so small, so they say that you can visit all countryId in a week, but if its hills were “flattened out” - it would be the largest countryId in the world! And one more thing - this is the only countryId in the world that, due to its natural beauty, could be declared as a national nature park under the protection of UNESCO. So far it has been done with 50% of its territory!",
       "fromDate": "2023-02-08",
       "toDate": "2023-02-21",
-      "country": "Montenegro",
+      "countryId": 3,
       "id": 1
     },
     {
@@ -17,7 +17,7 @@
       "description": "An eight day mountain tour of the most beautiful trails of the Rila and Pirin mountains. We will climb the highest summit of the Balkan Peninsula, come across many glacial lakes, fields, pastures, and peaks, greet the morning at 2300m elevation. We will tour Sofia, as well as many other villages and hamlets. We will visit the Rila Monastery, situated in the deep valley of the Rila River, protected by the magical nature of the eponymous mountain, whose peak Musala watches over the monastery. It is the biggest and the most prominent Christian Orthodox monastery, and was for a long time a spiritual and cultural center of Bulgaria.",
       "fromDate": "2023-05-08",
       "toDate": "2023-05-16",
-      "country": "Bulgaria",
+      "countryId": 6,
       "id": 2
     },
     {
@@ -27,7 +27,7 @@
       "description": "Mount Olympus - a unique, authentic, symbol of Greece. Olympus is the mountain where, according to Greek mythology, the gods lived. The highest peak of the mountain is Mytikas, with its 2,918 meters. On this mountain there are 46 peaks higher than 2000 meters. Olympus Mountain is known for its rich flora, with about 1,500 plant species, of which 23 are endemic. Olympus is the highest and most beautiful Greek mountain that represents untouched nature, and since 1983 it has been under the protection of UNESCO, and the mountain has the status of a national park.",
       "fromDate": "2023-07-12",
       "toDate": "2023-07-25",
-      "country": "Greece",
+      "countryId": 7,
       "id": 3
     },
     {
@@ -37,7 +37,7 @@
       "description": "Prokletije is a mountain range spanning three countries - Montenegro, Albania, and Serbia (in a part of Kosovo and Metohija). It belongs to the grand Dinarides system, spanning 650km from Slovenia to Albania. The highest summit of Prokletije, and the Dinarides at the same time, is Maja Jezercë (2694m). Prokletije in Serbian, or Bjeshkët e Nemuna in Albanian, means cursed or forbidden mountains in both languages, which is the best description of this wild landscape in the Balkan Peninsula.",
       "fromDate": "2023-06-21",
       "toDate": "2023-06-28",
-      "country": "Montenegro",
+      "countryId": 3,
       "id": 4
     },
     {
@@ -47,7 +47,7 @@
       "description": "Suva Mountain is a mountain in Southeast Serbia, 45 km long and 15 km wide. Geologically and geographically, it belongs to the Carpatho-Balkan mountain belt. Suva Mountain is a massif with extraordinary forms of karst relief, a treasury of sediments of different age and rich in fossil flora; a unique phytocoenosis and forest ecosystem, with 1 261 plant species. According to the national law, it was declared a nature reserve and a geoheritage site in Serbia.",
       "fromDate": "2023-08-04",
       "toDate": "2023-08-05",
-      "country": "Serbia",
+      "countryId": 1,
       "id": 5
     },
     {
@@ -57,7 +57,7 @@
       "description": "Enjoy lush landscapes, pastures, meadows, hills, and the alluring play of wild horses at sunset! Discover the beauty of mountain rivers and clear streams that suddenly transform into untamed waterfalls often above 60 meters high. Climb a smaller peak, or go down a cave, simply for the joy of it. The braver can rappel down a cliff, and the bravest down a river canyon. Meet wild, pristine, exceptional nature. Yes, meet Balkan, the mountain that gave its name to the Balkan peninsula. Welcome to the Balkan mountains, a unique nature park!",
       "fromDate": "2023-05-02",
       "toDate": "2023-06-05",
-      "country": "Serbia",
+      "countryId": 1,
       "id": 6
     },
     {
@@ -67,7 +67,7 @@
       "description": "Located as it is in the Sutjeska National Park, which also contains one of Europe's last primeval forests, a journey to Maglic Mountain is simply glorious. This part of the world recieves few visitors, making it a perfect retreat for hikers and mountaineers, and the natural triangle of Zelengora, Volujak and Maglic Mountain is both challenging and captivating. At 2386m, Maglic Mountain is the highest peak in Bosnia & Herzegovina and features gentle pine-forest walking, dramatic rock faces, arduous climbs over rocky sections and scrambling. The view from the ridge and peak is stupendous, across the dramatic landscape of the Bosnia & Herzegovina-Montenegro border. The forest here hides a world of wonder, with trickling streams, huge trees - some older than 400 years - and rich flora and fauna. Keep an eye out for animal footprints. Europe's elusive brown bear might be watching.",
       "fromDate": "2023-07-03",
       "toDate": "2023-07-07",
-      "country": "BiH",
+      "countryId": 4,
       "id": 7
     },
     {
@@ -77,7 +77,7 @@
       "description": "The West of Macedonia, its mountain ranges and the breathtaking landscapes will make you live the best mountaineering experience of your life. These are the highest summits in North Macedonia and some of the best natural areas to explore. Apart from its beautiful landscapes, they are full of history and show a rich culture that will surprise you. Mount Korab, with Korab peak (2764 m), the highest peak of North Macedonia and Albania",
       "fromDate": "2023-07-24",
       "toDate": "2023-07-29",
-      "country": "Macedonia",
+      "countryId": 2,
       "id": 8
     },
     {
@@ -87,7 +87,7 @@
       "description": "Croatia is very famous as a seaside tourist destination, but so far it’s not enough famous for its mountain areas. This trip is an opportunity to explore its huge potential and natural beauty. I propose to guide you around the most important areas of the Dinaric Alps. This is a mountain chain that goes along several countries; in Croatia, it extends for more than 600 kilometers along the coast of the Adriatic Sea. Some of the places where I would like to take you for a hike are Northern Istra, Gorski Kotar, Velebit and Lika. In fact, those are the places that I know best and where I've spent most of my hiking experience.",
       "fromDate": "2023-04-12",
       "toDate": "2023-04-18",
-      "country": "Croatia",
+      "countryId": 5,
       "id": 9
     }
   ],
