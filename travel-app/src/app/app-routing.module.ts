@@ -1,7 +1,26 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { HomeLayoutComponent } from './core/layouts/home-layout/home-layout.component';
+
+const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'homepage',
+    pathMatch: 'full',
+  },
+  {
+    path: 'homepage',
+    component: HomeLayoutComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () =>
+          import('./features/trips/trips.module').then((m) => m.TripsModule),
+      },
+    ],
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
