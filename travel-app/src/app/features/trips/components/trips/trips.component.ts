@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { TripsService } from '../../services/trips.service';
 import { take } from 'rxjs';
 import { Trip } from 'src/app/models/interfaces/trip.interface';
+import { TripsService } from '../../services/trips.service';
 
 @Component({
   selector: 'app-trips',
@@ -14,13 +14,13 @@ export class TripsComponent implements OnInit {
   constructor(private tripsService: TripsService) {}
 
   ngOnInit(): void {
-    this.getTrips(), console.log(this.trips);
+    this.getTrips();
   }
 
   getTrips(): void {
     this.tripsService
       .getTrips()
       .pipe(take(1))
-      .subscribe((data) => (this.trips = data));
+      .subscribe((data: Trip[]) => (this.trips = data));
   }
 }

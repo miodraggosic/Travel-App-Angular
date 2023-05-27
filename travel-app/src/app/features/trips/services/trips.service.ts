@@ -8,7 +8,7 @@ import { Observable, retry } from 'rxjs';
   providedIn: 'root',
 })
 export class TripsService {
-  private readonly tripsUrl: string = `${environment.baseApiUrl}/trips`;
+  private readonly tripsUrl: string = `${environment.baseApiUrl}trips`;
 
   constructor(private http: HttpClient) {}
 
