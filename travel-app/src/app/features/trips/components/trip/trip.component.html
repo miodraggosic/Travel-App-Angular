@@ -1,0 +1,12 @@
+<app-trip-card>
+  <ng-container title>
+    <app-nav-link [text]="trip.title"></app-nav-link>
+  </ng-container>
+  <img image mat-card-image md [src]="trip.imageUrl">
+  <p desc>{{trip.description | slice: 0: 78 }}</p>
+  <div info>
+    <p>{{trip.price}}</p>
+    <p><span>{{trip.fromDate}}</span><span>{{trip.toDate}}</span></p>
+    <p>{{trip.countryId}}</p>
+  </div>
+</app-trip-card>
