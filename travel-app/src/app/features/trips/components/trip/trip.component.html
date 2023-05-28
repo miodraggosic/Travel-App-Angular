@@ -1,8 +1,10 @@
-<app-trip-card>
+<app-trip-card *ngIf="trip">
   <ng-container title>
-    <app-nav-link [text]="trip.title"></app-nav-link>
+    <app-nav-link [routerLink]="[trip.id]">
+      {{trip.title | titlecase}}
+    </app-nav-link>
   </ng-container>
-  <img image mat-card-image md [src]="trip.imageUrl">
+  <img image [routerLink]="[trip.id]" mat-card-image md [src]="trip.imageUrl">
   <p desc>{{trip.description | slice: 0: 78 }}</p>
   <div info>
     <p>{{trip.price}}</p>

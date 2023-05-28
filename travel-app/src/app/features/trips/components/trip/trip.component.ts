@@ -7,7 +7,7 @@ import { Trip } from 'src/app/models/interfaces/trip.interface';
   styleUrls: ['./trip.component.scss'],
 })
 export class TripComponent implements OnInit {
-  @Input() trip!: Trip;
+  @Input() trip!: Trip | null;
 
   constructor() {}
 
