@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { take } from 'rxjs';
 import { Trip } from 'src/app/models/interfaces/trip.interface';
 import { TripsService } from '../../services/trips.service';
@@ -9,6 +9,7 @@ import { TripsService } from '../../services/trips.service';
   styleUrls: ['./trips.component.scss'],
 })
 export class TripsComponent implements OnInit {
+  @Input() searchTerm: string = '';
   public trips: Trip[] = [];
 
   constructor(private tripsService: TripsService) {}
@@ -17,10 +18,25 @@ export class TripsComponent implements OnInit {
     this.getTrips();
   }
 
-  getTrips(): void {
+  public onSearchValue(event: string) {
+    this.searchTerm = event;
+    this.getFiltered();
+  }
+
+  private getTrips(): void {
     this.tripsService
       .getTrips()
       .pipe(take(1))
       .subscribe((data: Trip[]) => (this.trips = data));
+  }
+  private getFiltered() {
+    this.tripsService
+      .getFiltered(this.searchTerm)
+      .pipe(take(1))
+      .subscribe((data) => {
+        console.log(data);
+
+        this.trips = data;
+      });
   }
 }

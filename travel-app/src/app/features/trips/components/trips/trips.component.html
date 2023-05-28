@@ -1,5 +1,5 @@
 <div class="search">
-  <app-search></app-search>
+  <app-search (searchTerm)="onSearchValue($event)"></app-search>
 </div>
 <div class="trips-container">
   <app-trip *ngFor="let trip of trips" [trip]="trip"></app-trip>
