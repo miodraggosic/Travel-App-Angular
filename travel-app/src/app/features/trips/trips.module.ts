@@ -11,9 +11,10 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { TripsComponent } from './components/trips/trips.component';
 import { TripComponent } from './components/trip/trip.component';
 import { TripCardComponent } from './components/trip-card/trip-card.component';
+import { TripOverviewComponent } from './components/trip-overview/trip-overview.component';
 
 @NgModule({
-  declarations: [TripsComponent, HomepageComponent, TripComponent, TripCardComponent],
+  declarations: [TripsComponent, HomepageComponent, TripComponent, TripCardComponent, TripOverviewComponent],
   imports: [
     CommonModule,
     SharedModule,
