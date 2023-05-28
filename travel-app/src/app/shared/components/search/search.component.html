@@ -1,4 +1,5 @@
 <mat-form-field appearance="outline" color="accent">
   <mat-label>Search</mat-label>
-  <input matInput>
+  <input matInput [formControl]="search" (blur)="onSearch()">
 </mat-form-field>
+<p>{{search.value}}</p>
