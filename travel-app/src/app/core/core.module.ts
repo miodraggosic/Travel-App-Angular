@@ -10,8 +10,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
-const COMPONENTS = [HeaderComponent, FooterComponent, HomeLayoutComponent];
+const COMPONENTS = [
+  HeaderComponent,
+  FooterComponent,
+  HomeLayoutComponent,
+  PageNotFoundComponent,
+];
 
 @NgModule({
   declarations: [...COMPONENTS],
