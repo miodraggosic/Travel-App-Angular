@@ -19,6 +19,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('./features/trips/trips.module').then((m) => m.TripsModule),
       },
+      {
+        path: 'admin',
+        loadChildren: () =>
+          import('./features/admin/admin.module').then((m) => m.AdminModule),
+      },
     ],
   },
   {
