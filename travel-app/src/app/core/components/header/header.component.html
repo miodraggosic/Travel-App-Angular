@@ -7,6 +7,7 @@
       <mat-list>
         <app-nav-link mat-list-item *ngFor="let link of navLinks" [routerLink]="[link | lowercase]">{{link |
           uppercase}}</app-nav-link>
+        <app-nav-link (click)="logout()">LOGOUT</app-nav-link>
       </mat-list>
     </mat-nav-list>
   </mat-toolbar>
