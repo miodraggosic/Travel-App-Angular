@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "start-app": "concurrently \"json-server --watch server/db.json\" \"ng serve -o\"",
+    "start-app": "concurrently \"json-server --watch server/db.json -m ./node_modules/json-server-auth\" \"ng serve -o\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
