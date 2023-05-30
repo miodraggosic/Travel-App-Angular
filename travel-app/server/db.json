@@ -120,5 +120,25 @@
       "name": "Greece",
       "id": 7
     }
+  ],
+  "users": [
+    {
+      "email": "gosmio88@gmail.com",
+      "password": "$2a$10$zqk4EcLhpLKhspc8Dx9hiuPmGz7pR0w0o6ALyzkzWeM24ZS3Cfr7O",
+      "firstName": "Miodrag",
+      "lastName": "Gosic",
+      "createdAt": "2023-05-30T05:13:24.071Z",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "email": "pera@gmail.com",
+      "password": "$2a$10$NSRbpuqAb5wyO0HyR.5dOOvZkIXlkiojTPaN/.6zOmCLnkvm3AxDe",
+      "firstName": "Petar",
+      "lastName": "Petric",
+      "createdAt": "2023-05-30T06:04:41.014Z",
+      "role": "admin",
+      "id": 2
+    }
   ]
 }
