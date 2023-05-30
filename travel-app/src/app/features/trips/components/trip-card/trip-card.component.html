@@ -5,11 +5,13 @@
     </mat-card-title>
   </mat-card-header>
   <ng-content select="[image]"></ng-content>
-
   <mat-card-content>
-    <ng-content select="[desc]"></ng-content>
-    <button>
-    </button>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        Read Description
+      </mat-expansion-panel-header>
+      <ng-content select="[desc]"></ng-content>
+    </mat-expansion-panel>
   </mat-card-content>
   <mat-card-footer>
     <ng-content select="[info]"></ng-content>

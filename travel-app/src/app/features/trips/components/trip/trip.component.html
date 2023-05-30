@@ -5,10 +5,10 @@
     </app-nav-link>
   </ng-container>
   <img image [routerLink]="[trip.id]" mat-card-image md [src]="trip.imageUrl">
-  <p desc>{{trip.description | slice: 0: 78 }}</p>
+  <p desc>{{trip.description}}</p>
   <div info>
-    <p>{{trip.price}}</p>
-    <p><span>{{trip.fromDate}}</span><span>{{trip.toDate}}</span></p>
+    <p>{{trip.price | currency:'EUR' }}</p>
+    <p><span>{{trip.fromDate | date}}</span><span>{{trip.toDate | date}}</span></p>
     <p>{{trip.countryId}}</p>
   </div>
 </app-trip-card>
