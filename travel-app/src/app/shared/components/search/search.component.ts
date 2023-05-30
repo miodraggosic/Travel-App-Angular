@@ -16,6 +16,7 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {}
 
   onSearch() {
-    this.searchTerm.emit(this.search.value);
+    const term = this.search.value.trim();
+    this.searchTerm.emit(term);
   }
 }
