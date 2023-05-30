@@ -5,7 +5,8 @@
         <app-title [text]="'balkan mountain travel'"></app-title>
       </mat-list>
       <mat-list>
-        <app-nav-link mat-list-item *ngFor="let link of navLinks" [routerLink]="[link]">{{link}}</app-nav-link>
+        <app-nav-link mat-list-item *ngFor="let link of navLinks" [routerLink]="[link | lowercase]">{{link |
+          uppercase}}</app-nav-link>
       </mat-list>
     </mat-nav-list>
   </mat-toolbar>
